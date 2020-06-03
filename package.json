@@ -1,0 +1,29 @@
+{
+  "name": "audio2video",
+  "version": "1.0.0",
+  "description": "Serverless Lambda function to convert audio files to video files",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EFGOS/audio2video.git"
+  },
+  "keywords": [
+    "serverless",
+    "lambda",
+    "aws",
+    "ffmpeg",
+    "convert"
+  ],
+  "author": "Roman Schwarz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EFGOS/audio2video/issues"
+  },
+  "homepage": "https://github.com/EFGOS/audio2video#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.688.0"
+  }
+}
